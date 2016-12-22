@@ -1,0 +1,24 @@
+{
+  "name": "smsapi",
+  "version": "1.0.0",
+  "description": "sms webapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDaniel/sms-webapp.git"
+  },
+  "author": "James Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesDaniel/sms-webapp/issues"
+  },
+  "homepage": "https://github.com/JamesDaniel/sms-webapp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "twilio": "^2.11.1"
+  }
+}
