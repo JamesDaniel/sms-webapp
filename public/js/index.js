@@ -9,7 +9,7 @@ Nice and Simple
 */
 $(document).ready(function () {
     $('#sendSMS').click(function () {
-        var url = document.URL + "sms?msg=" + $('#sms-text').val();
+        var url = document.URL + "sms?msg=" + $('#sms-text').val() + '&pass=' + $('#sms-pass').val();
         $.ajax({
             method: "GET",
             url: url,
